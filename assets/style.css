@@ -38,19 +38,49 @@
 
 /* Main */
 
+main{
+    background-color: #2c2e30;
+}
+
 video {
-width: 100%;
+    width: 100%;
+}
+
+.img-main {
+    border-radius: 30px;
+    width: 400px;
+    background-size: cover;  
+}
+
+.img-main:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+h2 {
+    text-align: center;
+    color: #FF6600;
+}
+
+h3 {
+    text-align: center;
+    color: #ff983f;
+}
+
+.texto-main {
+    text-align: center;
+    color: #f5f5f5;
 }
 
 /* Footer */
 
 .footer-container {
-    background-color: rgb(0, 0, 0); 
+    background-color: rgb(0, 0, 0);
     color: #ffffff;
 }
 
 .footer-container h3 {
-    color:#d26037;
+    color: #d26037;
 }
 
 .redes-img {
@@ -62,7 +92,7 @@ width: 100%;
 }
 
 .footer-container2 {
-    background-color:#393E46;
+    background-color: #393E46;
 }
 
 .map {

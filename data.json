@@ -1,4 +1,4 @@
-let articulos = [
+{ "articulos": [
 
     {
         "nombre": "Black Ice",

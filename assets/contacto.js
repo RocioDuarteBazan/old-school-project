@@ -1,6 +1,6 @@
 
 // Validación del formulario
-$("#contact-form").validate({
+$("#contacto-form").validate({
     rules: {
         nombre: {
             required: true,

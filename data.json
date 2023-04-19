@@ -81,7 +81,7 @@
         "nombre": "Audioslave",
         "artista": "Audioslave",
         "imagen": "https://http2.mlstatic.com/D_NQ_NP_974744-MLA50439167528_062022-O.webp",
-        "descripcion": 'Audioslave es el álbum de estudio debut del supergrupo de rock estadounidense Audioslave , lanzado el 18 de noviembre de 2002 a través de Epic Records e Interscope Records. Hablando sobre la primera vez que Cornell tocó con la banda, Morello dijo: "Se acercó al micrófono y cantó la canción y no podía creerlo. No solo sonaba bien. No sonaba genial. Sonaba trascendente. Y... cuando hay una química insustituible desde el primer momento, no lo puedes negar"',
+        "descripcion": "Audioslave es el álbum de estudio debut del supergrupo de rock estadounidense Audioslave , lanzado el 18 de noviembre de 2002 a través de Epic Records e Interscope Records. Hablando sobre la primera vez que Cornell tocó con la banda, Morello dijo: Se acercó al micrófono y cantó la canción y no podía creerlo. No solo sonaba bien. No sonaba genial. Sonaba trascendente. Y... cuando hay una química insustituible desde el primer momento, no lo puedes negar",
         "precio": 15000,
         "stock": 1,
         "genero": "Rock&Pop",
@@ -171,7 +171,7 @@
         "descripcion": "Californication es el séptimo álbum de estudio de la banda de rock estadounidense Red Hot Chili Peppers , lanzado el 8 de junio de 1999 por Warner Bros Records. El disco marcó un cambio significativo en el estilo de la banda, Californication se atreve a ser espiritual y epifánico",
         "precio": 17000,
         "stock": 2,
-        "genero": 'Rock&Pop',
+        "genero": "Rock&Pop",
         "_id": "16"
     },
     {

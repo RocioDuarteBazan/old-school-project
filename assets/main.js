@@ -6,25 +6,12 @@ async function vinylsJson() {
     try {
         var vinylsApi = await fetch('https://apimocha.com/oldschoolapi/posts')
         vinylsApi = await vinylsApi.json()
-
-        console.log(vinylsApi);
-
-
     } catch (error) {
         console.log(error);
     }
 
     const card = vinylsApi
-
-    console.log(card);
-
-    const homeCards = card.filter(() => title.text.includes("Vinilos"))
-
-    let cardsMerged = [...homeCards]
-
-    console.log(cardsMerged);
-
-    cardsMerged.forEach(getCard)
+    card.forEach(getCard)
 }
 vinylsJson()
 
@@ -44,3 +31,4 @@ function getCard(articulos) {
 </div>
 `;
 }
+

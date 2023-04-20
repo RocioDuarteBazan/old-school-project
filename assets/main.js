@@ -22,11 +22,13 @@ function getCard(articulos) {
     <img src="${articulos.imagen}" class="card-img" alt="${articulos.nombre}">
     <p class="card-text Stock: ${articulos.stock}</p>
     <div class="card-info">
-        <p class="text-title">${articulos.nombre}</p>
-        <p class="text-title">${articulos.artista}</p>
+        <div class="d-flex flex-column justify-content-center align-items-center container-artistas">
+            <p class="text-title">${articulos.nombre}</p>
+            <p class="text-title">${articulos.artista}</p>
+        </div>
         <p class="text-body">${articulos.descripcion}</p>
-        <span class="text-title">Stock: ${articulos.stock}</span>
-        <span class="text-title">Precio: $${articulos.precio}</span>  
+        <span class="text-title2">Stock: ${articulos.stock}</span>
+        <span class="text-title3">Precio: $${articulos.precio}</span>  
     </div>
 </div>
 `;

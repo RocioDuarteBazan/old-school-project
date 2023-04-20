@@ -55,7 +55,7 @@ h4 {
 .img-main {
     border-radius: 30px;
     width: 400px;
-    height: 480px;
+    height: 500px;
     background-size: cover;
 }
 
@@ -116,10 +116,6 @@ h3 {
     font-weight: bold;
 }
 
-
-
-
-
 /* Vinilos */
 .main-container {
     width: 100%;
@@ -132,7 +128,7 @@ h3 {
     width: 375px;
     height: 38em;
     padding: .8em;
-    background: #eeeeee;
+    background: #eeeeeee3;
     position: relative;
     overflow: visible;
     border-radius: 15px 0px 15px 0px;
@@ -147,11 +143,6 @@ h3 {
     object-fit: cover;
 }
 
-svg {
-    width: 20px;
-    height: 20px;
-}
-
 .card-footer {
     width: 100%;
     display: flex;
@@ -162,17 +153,36 @@ svg {
     background-color: transparent;
 }
 
+
 .text-title {
-    font-weight: 900;
-    color: #FF6600;
+    font-weight: bolder;
+    color: #ff6600e3;
+    font-size: 1.2em;
+    line-height: 0.5;
+    font-family: 'Lora', serif;
+}
+
+.text-title2 {
+    font-weight: bold;
+    color: #39393977;
     font-size: 0.9em;
     line-height: 1.2;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.text-title3 {
+    font-weight: bolder;
+    color: #ff6600c5;
+    font-size: 0,9em;
+    line-height: 0.5;
+    font-family: 'Lora', serif;
 }
 
 .text-body {
     font-size: .8em;
     border-radius: .3em;
     color: #373737 !important;
+    font-family: 'Barlow Condensed', sans-serif;
 }
 
 .card-img:hover {
@@ -185,11 +195,11 @@ svg {
 
 .card-contacto {
     width: 700px;
-    height: 500px;
+    height: 620px;
 }
 
 .img-contacto {
-    height: 470px;
+    height: 550px;
     border-radius: 20px 0px 20px 0px;
 }
 
@@ -290,6 +300,7 @@ label.error {
     width: 4.2em;
 }
 
+/* Media-Querys */
 
 @media screen and (max-width: 990px) {
     .nav-link {
@@ -307,16 +318,121 @@ label.error {
         font-size: 20px;
     }
 
+    main h2 {
+        font-size: 25px;
+    }
+
+    main h3 {
+        font-size: 20px;
+    }
+
+    .texto-main {
+        font-size: 15px;
+    }
+
+    .img-main {
+        width: 350px;
+        height: 450px;
+    }
+
+    .img-main2 {
+        width: 350px;
+        height: 450px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    main h2 {
+        padding-top: 30px;
+        font-size: 23px;
+    }
+
+    main h3 {
+        font-size: 18px;
+    }
+
+    .texto-main {
+        font-size: 13px;
+    }
+
+    .img-main {
+        width: 300px;
+        height: 380px;
+    }
+
+    .img-main2 {
+        width: 300px;
+        height: 380px;
+    }
 }
 
 
-@media screen and (max-width: 778px) {
+@media screen and (max-width: 768px) {
     .footer-primary p {
         font-size: 15px;
     }
 }
 
-@media screen and (max-width: 424px) {
+
+@media screen and (max-width: 600px) {
+
+    .div-logo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    main h2 {
+        padding-top: 30px;
+        font-size: 20px;
+    }
+
+    main h3 {
+        font-size: 15px;
+    }
+
+    .texto-main {
+        font-size: 10px;
+    }
+
+    .img-main {
+        width: 250px;
+        height: 300px;
+    }
+
+    .img-main2 {
+        width: 250px;
+        height: 300px;
+    }
+
+    .container-imgcontacto {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 460px) {
+
+    main h2 {
+        font-size: 15px;
+    }
+
+    main h3 {
+        font-size: 13px;
+    }
+
+    .texto-main {
+        font-size: 8px;
+    }
+
+    .img-main {
+        width: 200px;
+        height: 280px;
+    }
+
+    .img-main2 {
+        width: 200px;
+        height: 250px;
+    }
 
     .div-logo {
         display: flex;
@@ -350,4 +466,12 @@ label.error {
     .footer-primary h5 {
         font-size: 18px;
     }
+}
+
+@media screen and (max-width: 415px) {
+
+    .input-contacto {
+        width: 12em;
+    }
+
 }

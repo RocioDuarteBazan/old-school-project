@@ -14,8 +14,17 @@ $("#contacto-form").validate({
             required: true,
             email: true
         },
-        message: {
+        mensaje: {
             required: true
         }
     },
+    messages: {
+        nombre: "Por favor ingrese su nombre",
+       apellido: "Por favor ingrese su apellido",
+        email: {
+          required: "Por favor ingrese su correo electrónico",
+          email: "Por favor ingrese un correo electrónico válido"
+        },
+        mensaje: "Ingrese su duda"
+    }
 });

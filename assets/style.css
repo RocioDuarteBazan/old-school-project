@@ -100,9 +100,13 @@ h3 {
 
 /* Carrousel */
 
+.container-carrousel{
+    height: 500px;
+}
+
 .img-carrousel {
-    height: 450px;
-    background-size: cover;
+    height: 500px;
+    background-size: cover !important;
 }
 
 .divisor-carrousel {

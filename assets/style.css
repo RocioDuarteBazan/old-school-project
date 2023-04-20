@@ -46,10 +46,10 @@ main {
 video {
     width: 100%;
 }
- 
-h4{
+
+h4 {
     font-family: 'Lora', serif;
-    font-weight: bold;  
+    font-weight: bold;
 }
 
 .img-main {
@@ -291,10 +291,63 @@ label.error {
 }
 
 
-@media screen and (max-width: 993px) {
+@media screen and (max-width: 990px) {
     .nav-link {
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    .footer-primary {
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .footer-primary p {
+        font-size: 20px;
+    }
+
+}
+
+
+@media screen and (max-width: 778px) {
+    .footer-primary p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 424px) {
+
+    .div-logo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .logo-footer {
+        width: 250px;
+        height: 180px;
+    }
+
+    .redes-img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .map-img {
+        width: 220px;
+        height: 180px;
+    }
+
+    .footer-primary p {
+        font-size: 12px;
+    }
+
+    .footer-primary h3 {
+        font-size: 20px;
+    }
+
+    .footer-primary h5 {
+        font-size: 18px;
     }
 }

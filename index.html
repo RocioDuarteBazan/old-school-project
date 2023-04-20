@@ -1,12 +1,222 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The old school/title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+    <link />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet" />
+    <link rel="shortcut icon" href="./assets/media/fav-icon.png" type="image/x-icon" />
+    <title>The old school</title>
 </head>
+
 <body>
-    
+    <header class="header container-fluid">
+        <nav class="navbar navbar-expand-lg bg-light bg-transparent">
+            <div class="container-fluid bg-transparent d-flex">
+                <div class="d-flex justify-content-center align-items-center div-logo">
+                    <img src="./assets/media/school.png" alt="logo" class="imglogo" />
+                    <h4>The Old School - Café & Vinilos</h4>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse bg-transparent" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 gap-2 container-fluid d-flex justify-content-end bg-transparent">
+                        <li class="nav-item bg-transparent">
+                            <a class="nav-link active rounded-1 fst-itali" aria-current="page" href="#">INICIO</a>
+                        </li>
+                        <li class="nav-item bg-transparent">
+                            <a class="nav-link rounded-1 fst-itali" href="./vinilos.html">VINILOS</a>
+                        </li>
+                        <li class="nav-item bg-transparent">
+                            <a class="nav-link rounded-1 fst-itali" href="./contacto.html">CONTACTO</a>
+                        </li>
+                        <li class="nav-item bg-transparent">
+                            <a class="nav-link rounded-1 fst-itali" href="./pedidos.html">QUIERO MI VINILO!</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div>
+            <video src="./assets/media/video-home.mp4" autoplay muted loop></video>
+        </div>
+
+        <!-- Primera seccion -->
+        <div class="container-fluid d-flex justify-content-center align-items-center row container-main-1 pt-5">
+            <div class="col-5 container-fluid d-flex justify-content-center">
+                <img src="./assets/media/imagen-empresa.jpg" alt="img-empresa" class="img-main" />
+            </div>
+            <div class="container-fluid d-flex flex-column justify-content-center align-items-center col-5">
+                <h2>¿Quiénes somos?</h2>
+                <h3>Café & Vinilos</h3>
+                <p class="texto-main">
+                    <b>The Old School </b> nace desde la pasion de una joven estudiante 
+                    por la musica 🎼 <br> y su amor por la merienda 😅<br />
+                    Desde el comienzos escuchando CD'S en su dicsman 🎧 hasta conocer su
+                    primer vinilo 💿<br />
+                    Su encanto por lo antiguo la llevo a crear su emprendimiento, con el
+                    fin de que el resto del mundo sintiera como ella disfrutaba del
+                    <b>rock, pop y de una buena merienda ☕</b><br />
+                    The old school busca llevar la experiencia con la musica a otro
+                    nivel, desde lo auditivo a lo visual y lo sensorial ✨<br />
+                    <b>¡Que comience el viaje! 🚀</b>
+                </p>
+            </div>
+        </div>
+
+        <div class="container-fluid d-flex justify-content-center align-items-center row pb-5">
+            <div class="container-fluid d-flex flex-column justify-content-center align-items-center col-5">
+                <h2>Te doy la bienvenida a mi mundo!</h2>
+                <h3>Mi nombre es Rocío, aunque todos me dicen Rochi...</h3>
+                <p class="texto-main">
+                    Tengo 25 años, soy estudiante, me encanta hacer amigos, estar con mi
+                    familia y compartir mucho tiempo con mis mascotas Nacho y Sheila 🐱🐶<br />
+                    Soy una amante de la musica desde que tengo uso de memoria y en este
+                    caso decidi juntar un poco de dos pasiones: mis inicios en el
+                    desarollo web 💻, la comida 🍩 y los vinilos 💿 para crear este
+                    emprendimiento.<br />
+                    Espero disfrutes tu estadia por esta pagina, como yo la disfrute
+                    creando ❤️<br />
+                    Además te invito a conocer los distintos artistas del rock y pop con
+                    los que contamos en the old school y si pasas por el local de algo
+                    rico para deleitarte 🥰🍰<br />
+                </p>
+            </div>
+            <div class="col-5 container-fluid d-flex justify-content-center">
+                <img src="./assets/media/imagen-peronal2.jpg" alt="img-empresa" class="img-main" />
+            </div>
+        </div>
+
+        <!-- Carrousel -->
+        <div>
+            <h3 class="divisor-carrousel">
+                ¡Además te invitamos a visitarnos en nuestro local!
+            </h3>
+            <div id="carouselExampleIndicators" class="carousel slide container-carrousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assets/media/cafeteria4.jpg" class="d-block w-100 img-carrousel" alt="..." />
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/media/cafeteria2.jpg" class="d-block w-100 img-carrousel" alt="..." />
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/media/cafeteria3.jpg" class="d-block w-100 img-carrousel" alt="..." />
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <h3 class="divisor-carrousel">¿Te lo vas a perder?</h3>
+
+            <!-- Segunda seccion -->
+            <div class="container-fluid d-flex justify-content-center align-items-center row container-main-1 pt-5">
+                <div class="col-5 container-fluid d-flex justify-content-center">
+                    <img src="./assets/media/img-paste-7.jpg" alt="img-empresa" class="img-main2" />
+                </div>
+                <div class="container-fluid d-flex flex-column justify-content-center align-items-center col-5">
+                    <h2>Contamos con amplia variedad de productos de cafetería</h2>
+                    <h3>
+                        De delicias dulces a saladas 🍰🥪 <br />
+                        y sin olvidar del café calidad premiun!☕
+                    </h3>
+                </div>
+            </div>
+
+            <div class="container-fluid d-flex justify-content-center align-items-center row pb-5">
+                <div class="container-fluid d-flex flex-column justify-content-center align-items-center col-5">
+                    <h2>
+                        También tenemos: <br />
+                        ¡Nuestro propio tocadiscos!
+                    </h2>
+                    <h3>
+                        Te invitamos a elegir el vinilo que más te guste y disfrutar de su
+                        melodía en tu merienda💿🎼
+                    </h3>
+                </div>
+                <div class="col-5 container-fluid d-flex justify-content-center">
+                    <img src="./assets/media/tocadiscos.jpg" alt="img-empresa" class="img-main2" />
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer-container d-flex flex-column">
+        <div class="d-flex justify-content-around py-4 footer-primary">
+            <div class="logo-footer-container text-center">
+                <img class="logo-footer" src="./assets/media/school.png" alt="logo-old" />
+                <h5>Síguenos en redes:</h5>
+                <div class="socialmedia-container d-flex justify-content-center gap-4">
+                    <a href="https://web.whatsapp.com/"><img class="redes-img" src="./assets/media/wpp_logo.png"
+                            alt="whatsapp logo" /></a>
+                    <a href="https://www.instagram.com/"><img class="redes-img" src="./assets/media/logo_ig.png"
+                            alt="instagram logo" /></a>
+                    <a href="https://www.facebook.com/"><img class="redes-img" src="./assets/media/logo_face.png"
+                            alt="facebook logo" /></a>
+                </div>
+            </div>
+
+            <div class="map-text d-flex flex-column justify-content-center align-items-center">
+                <h3>Contáctanos:</h3>
+                <p>
+                    Lunes a Sábados: 9:00 a.m. a 12:00 p.m. / 17:00 p.m. a 20:00 p.m.
+                </p>
+                <p>
+                    <img src="./assets/media/telefono.png" /> Teléfono: +54 2944 397162
+                </p>
+                <p>
+                    <img src="./assets/media/direccion.png" />Dirección: Mitre 580 - San
+                    Carlos de Bariloche
+                </p>
+            </div>
+
+            <div class="text-center map-text">
+                <h3>Ubicación</h3>
+                <h5>¿Cómo llegar a The Old School?</h5>
+                <iframe class="map-img"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3005.0131576325134!2d-71.30418642460096!3d-41.13423873100598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x961a7b6fd4fe483d%3A0xa73ec3617fc4b3de!2sMitre%20580%2C%20San%20Carlos%20de%20Bariloche%2C%20R%C3%ADo%20Negro!5e0!3m2!1sen!2sar!4v1681799071934!5m2!1sen!2sar"
+                    width="300" height="200" style="border-radius: 0.5em" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+        <div class="footer-container2 text-white d-flex justify-content-center py-2">
+            <h6>By Rocío Duarte Bazán | The old school 2023 ©</h6>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
